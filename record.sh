@@ -4,7 +4,7 @@
 # You need to have *ffmpeg* installed AND *jq* json parser for this script to function
 # If you have issues it will probably be because the base rtmp url port number is wrong for you. Thus find out the correct 
 # port by generating an rtmp link and modifying line 20 of this script.
-# Correct usage is ./record.sh 01 1:30:00 ouput.mp4 OR ./record.sh 01 --notime ouput.mp4 which requires you to 
+# Correct usage is ./record.sh 01 1:30:00 ouput.ts OR ./record.sh 01 --notime ouput.ts which requires you to 
 # stop the recording manually. 
 # Chan number must be 2 or 3 digits. 
 # I recommend calling this script with linux command *at* https://linux.die.net/man/1/at
